@@ -13,9 +13,10 @@ feature_list = joblib.load(os.path.join(MODEL_DIR, "model_features.pkl"))  # ord
 label_encoders = joblib.load(os.path.join(MODEL_DIR, "label_encoders.pkl"))
 feature_field_map = joblib.load(os.path.join(MODEL_DIR, "feature_field_map.pkl"))
 
+print("my name is Haleema")
+print(label_encoders)
 print(model)
 print(feature_list)
-print(label_encoders)
 print(feature_field_map)
 
 # build metadata for template
