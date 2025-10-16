@@ -16,6 +16,8 @@ feature_field_map = joblib.load(os.path.join(MODEL_DIR, "feature_field_map.pkl")
 print("my name is Haleema")
 print(label_encoders)
 print(model)
+print(feature_list)
+print(feature_field_map)
 
 # build metadata for template
 feature_meta = []
